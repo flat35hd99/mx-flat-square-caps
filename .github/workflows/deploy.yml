@@ -11,6 +11,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Render and build OpenSCAD project
-        uses: flat35hd99/eval-openscad@v0.1
+        uses: flat35hd99/eval-openscad@v0.2
         with:
           command: 'openscad -o "mx-flat-square.stl" "mx-flat-square.scad"'
