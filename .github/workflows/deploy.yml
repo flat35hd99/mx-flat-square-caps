@@ -6,10 +6,8 @@ on:
 
 jobs:
   build:
-    name: 'Start OpenSCAD'
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
       - uses: actions/checkout@v2
 
       - name: Render and build OpenSCAD project
